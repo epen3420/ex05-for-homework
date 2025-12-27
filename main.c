@@ -36,6 +36,13 @@ int main(void){
     return 0;
   }
 
+  if (month == 12){
+    printf("よいお年を\n");
+  }
+  else if (month == 1 && day == 1){
+    printf("Happy New Year!!\n");
+  }
+
   printf("今日は %d月 %d日です\n", month, day);
 
   return 0;
