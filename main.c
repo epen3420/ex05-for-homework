@@ -8,6 +8,7 @@ int main(void){
   scanf("%d", &month);
   printf("現在の日にちを入力してください:\n");
   scanf("%d", &day);
+  printf("\n");
 
   if (month < 1 || month > 12){
     printf("月数が不正です。もう一度やり直してください。\n");
