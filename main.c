@@ -10,4 +10,6 @@ int main(void){
   scanf("%d", &day);
 
   printf("今日は %d月 %d日です\n", month, day);
+
+  return 0;
 }
